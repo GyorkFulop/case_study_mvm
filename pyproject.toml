@@ -1,0 +1,22 @@
+[project]
+name = "case-study-mvm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.8",
+    "nbformat>=5.10.4",
+    "numpy<2.4",
+    "pandas>=2.3.3",
+    "plotly>=6.5.1",
+    "scikit-learn>=1.8.0",
+]
+
+[tool.ruff]
+select = ["E", "F", "W", "I", "N", "UP", "Q", "C4", "B", "S", "A"]
+line-length = 160
+
+[tool.ruff.flake8-quotes]
+inline-quotes = "double"
